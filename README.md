@@ -10,7 +10,7 @@ The solution is wrapped into a Docker container. To build it run the command fro
 ./build.sh
 ```
 
-Then you need to run the container by replacing {YOUR_DATA_FOLDER} with the path to test dataset and executing
+Then you need to run the container by replacing {YOUR_DATA_FOLDER} with the path to the test dataset and executing
 
 ```
 docker run --name eyglasses_waytobehigh -v {YOUR_DATA_FOLDER}:/data/ -dit eyglasses_waytobehigh
