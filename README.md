@@ -13,7 +13,7 @@ The solution is wrapped into a Docker container. To build it run the command fro
 Then you need to run the container by replacing {YOUR_DATA_FOLDER} with the path to the test dataset and executing
 
 ```
-docker run --name eyglasses_waytobehigh -v {YOUR_DATA_FOLDER}:/data/ -dit eyglasses_waytobehigh
+docker run --name eyglasses_waytobehigh -v {YOUR_DATA_FOLDER}:/data/ -dit --runtime=nvidia -e NVIDIA_DRIVER_CAPABILITIES=compute,utility -e NVIDIA_VISIBLE_DEVICES=all eyglasses_waytobehigh
 docker attach eyglasses_waytobehigh
 ```
 
