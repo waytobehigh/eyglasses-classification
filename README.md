@@ -20,7 +20,7 @@ docker attach eyglasses_waytobehigh
 Finally, run
 
 ```
-python predict.py --data-path /data/
+python src/predict.py --data-path /data/
 ```
 
 It will output the images classifed as "people with glasses".
