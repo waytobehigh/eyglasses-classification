@@ -1,6 +1,6 @@
-# Snapchat entrance challenge
+# Eyglasses classification task
 
-This repository contains code for eyeglasses classification task as the first stage of Snapchat interview process. To run the code proceed to the following instructions.
+This repository contains code of eyglasses classifier trained on the subset of CelebA dataset. To run the code proceed to the following instructions.
 
 ### Deployment
 
